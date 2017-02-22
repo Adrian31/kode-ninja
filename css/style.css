@@ -1,0 +1,23 @@
+body {
+  font-family: 'Lato', sans-serif;
+  color: #2C3539;
+  font-weight: 300;
+}
+
+.text-muted {
+  color: #BCBBBB;
+}
+
+.text-thin {
+  font-weight: 100px;
+}
+
+.logo-size {
+  width: 200px;
+  height: 150px;
+}
+
+
+img, embed, object, video {
+  max-width: 100%;
+}
