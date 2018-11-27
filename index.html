@@ -1,108 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Kode Ninja</title>
+    <title>Portfolio</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" /> -->
-    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
-    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 
-    <link rel="stylesheet" type="text/css" href="css/slick/slick.css">
-    <link rel="stylesheet" type="text/css" href="css/slick/slick-theme.css">
-    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
   </head>
 
   <body>
-
-    <nav class="navbar navbar-expand-lg">
-      <img class="nav-logo" src="images/logo.svg" />
-      <!-- <a class="navbar-brand" href="#">Navbar</a> -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Featured Work</a>
-          </li>
-          <!-- <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </li> -->
-        </ul>
-        <!-- <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form> -->
-      </div>
-    </nav>
-
-    <div id="particles-js"></div>
     <!-- Container div to seal in all the website -->
-    <div class="container" style="height: 100vh;">
+    <div class="container">
     <!-- Header class presenting the title and logo -->
       <header class="row">
-
-        <div class="col-md-12">
-          <div class="col-md-12 logo-container">
-            <img id="logo-gif" class="logo img-responsive" src="images/logo-gif.gif" />
-            <img id="logo-still" class="logo img-responsive" src="images/logo-still.png" />
-          </div>
-
-          <div class="col-md-12" style="text-align: center;">
-            <h1 style="color: white; padding-top: 50px;">Kode Ninja</h1>
-          </div>
-
+        <div class="col-md-6">
+            <img src="images/logo.svg" class="img-responsive logo-size">
+        </div>
+          <div class="col-md-6 text-uppercase text-right">
+          <h1 class="main-header">Adrian Carabetta</h1>
+          <h3 class="main-header">Front-end Ninja</h3>
         </div>
       </header>
-    </div>
 
-    <!-- Featured Work -->
-    <div class="featured-work-container">
-      <div>
-        <h2 class="col-md-12 text-muted featured-work-title">Featured Work</h2>
-      </div>
-
-        <div class="row">
-          <div class="col-md-4 text-center">
-            <img src="images/featured-work/brighton-times.jpg" class="img-responsive work-feature"  data-toggle="modal" data-target="#project1">
-            <h3 class="fw-title">
-              <a class="feature-work-heading" href="https://adrian31.github.io/brighton-times/">The Brighton Times</a>
-            </h3>
-          </div>
-
-          <div class="col-md-4 text-center">
-            <img src="images/featured-work/responsive-blog.jpg" class="img-responsive work-feature" data-toggle="modal" data-target="#project2">
-            <h3 class="fw-title">
-              <a class="feature-work-heading" href="https://adrian31.github.io/My_Responsive_Blog/">My Responsive Blog</a>
-            </h3>
-          </div>
-
-          <div class="col-md-4 text-center">
-            <img src="images/featured-work/learning.jpg" class="img-responsive work-feature" data-toggle="modal" data-target="#project3">
-            <h3 class="fw-title">
-              <a class="feature-work-heading" href="https://adrian31.github.io/jgc/">Education</a>
-            </h3>
-          </div>
-
+      <div class="row">
+        <div class="col-md-12">
+          <hr>
         </div>
       </div>
 
+      <section class="row">
+        <div class="col-md-12">
+          <img src="images/banner1.jpg" class="img-responsive">
+        </div>
+      </section>
+
+      <div class="row">
+        <div class="col-md-12">
+          <hr>
+        </div>
+      </div>
+
+      <section class="row">
+        <h2 class="col-md-12 text-muted">Featured Work</h2>
+      </section>
+
+
+        <section class="row text-center">
+          <div class="col-md-6">
+            <img src="images/the_brighton_times.jpg" class="img-responsive"  data-toggle="modal" data-target="#project1">
+            <h3>The Brighton Times</h3>
+            <p><a href="https://adrian31.github.io/brighton-times/">Link to project</a></p>
+          </div>
+          <div class="col-md-6">
+            <img src="images/my_responsive_blog.jpg" class="img-responsive" data-toggle="modal" data-target="#project2">
+            <h3>My Responsive Blog</h3>
+            <p><a href="https://adrian31.github.io/My_Responsive_Blog/">Link to project</a></p>
+          </div>
+        </section>
+
+        <!--<section class="row text-center">
+          <div class="col-md-6 ">
+            <img src="images/in_style.jpg" class="img-responsive" data-toggle="modal" data-target="#project3">
+            <h3>In Style Chauffeur</h3>
+            <p><a href="../workspace/Joes Website/cover/index.html">Link to project</a></p>
+          </div>-->
+
+        <section class="row text-center">
+          <div class="col-md-6 ">
+            <img src="images/education.JPG" class="img-responsive" data-toggle="modal" data-target="#project3">
+            <h3>Education</h3>
+            <p><a href="https://adrian31.github.io/jgc/">Link to project</a></p>
+          </div>
+
+          <div class="col-md-6">
+            <img src="images/ladybug_dodge.jpg" class="img-responsive" data-toggle="modal" data-target="#project4">
+            <h3>Ladybug Dodge</h3>
+            <p><a href="https://adrian31.github.io/arcade-game-frogger/">Link to project</a></p>
+          </div>
+        </section>
+    </div>
 
     <footer>
 
@@ -110,25 +91,14 @@
         <hr style="width: 100%;">
       </div>
 
-      <div class="container" >
-      <div class="row social-icon-alignment">
-        <div class="col-md-3">
-          <a class="brandico-facebook social-media-icons" href="https://www.facebook.com" ></a>
-        </div>
 
-        <div class="col-md-3">
-          <a class="brandico-twitter social-media-icons" href="https://www.twitter.com"></a>
-        </div>
-
-        <div class="col-md-3">
-          <a class="brandico-instagram social-media-icons" href="https://www.instagram.com"></a>
-        </div>
-
-        <div class="col-md-3">
-          <a class="brandico-github social-media-icons" href="https://github.com/adrian31"></a>
-        </div>
-
-      </div>
+      <div class="container">
+        <ul class="social-media-list">
+            <li class="brandico-facebook social-media-icons"><a href="https://www.facebook.com"></a></li>
+            <li class="brandico-twitter social-media-icons"><a href="www.facebook.com"></a></li>
+            <li class="brandico-instagram social-media-icons"><a href="www.facebook.com"></a></li>
+            <li class="brandico-github social-media-icons"><a href="www.facebook.com"></a></li>
+        </ul>
     </div>
     </footer>
 
@@ -165,7 +135,24 @@
                     </div>
                 </div>
             </div>
-          </div>
+        </div>
+
+        <!--<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel">In Style Chauffeur</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="images/in_style.jpg">
+                        A responsive template, designed for a business with the possibility of it being ported to a phone application.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>-->
         <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
@@ -200,16 +187,6 @@
                 </div>
             </div>
         </div>
-
-        <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
-        <script type="text/javascript" src="js/bootstrap.min.js"></script>
-        <!-- Particles Background -->
-        <script src="js/particles/particles.min.js"></script>
-        <script src="js/particles/app.js"></script>
-
-        <script type="text/javascript" src="https://cdn.ywxi.net/js/1.js" async></script>
-        <script type="text/javascript" src="js/slick.min.js"></script>
-        <script src="js/app.js"></script>
 
         <script type="text/javascript" charset="UTF-8"
           src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyCbpGQsH8dBkACwon2sQ_Fiqi8eCNnE_mA">
